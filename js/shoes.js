@@ -87,7 +87,7 @@ class Filter extends HTMLElement{
 // Products Cards
 const template = document.createElement("template");
 template.innerHTML = 
-'<link rel=stylesheet href="css/shoes.css">'+
+'<link rel="stylesheet" href="css/shoes.css">'+
 '<link rel="stylesheet" href="css/bootstrap.min.css">'+
 '<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">'+
 '<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>'+
