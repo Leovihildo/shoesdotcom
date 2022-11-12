@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Shoesdotcom</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- The Styled sheet -->
+    <link rel="stylesheet" href="css/shoes.css">
+
+    <!-- Font-Awesome -->
+    <script src="https://kit.fontawesome.com/d2d33bd796.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+
+    <!-- Swiper-js -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+</head>
+<body>
+    <!-- HOME PAGE -->
+    <!-- NAV/HOME MENU -->
+    <main-header></main-header>
+
+    <!-- Body of the Page -->
+    <div id="main-content" class="section">
+        <div class="hero-img"></div>
+            <div class="msg">
+                <p>You want some<span class="large-text"> Sneakers &excl;</span>
+                </p>
+                <a id="btns" href="#contents">
+                    <button type="button" class="btn-start">Get Started</button>
+                </a>
+            </div>
+    </div>
+
+    <!-- Contents of the page  -->
+    <div class="section" id="contents">
+        <div class="container">
+            <!-- Filter settings -->
+        <my-filter></my-filter>
+        
+            <!-- Products -->
+            <div class="results bg-muted"></div>
+
+             <!-- High tops -->
+             <div class="swiper mySwiper products-container" id="HighTop">
+                <h3 class="text-muted loading loading-text">High tops</h3>
+                <div class="swiper-wrapper">
+                    <!-- HIGH TOPS---- -->
+                    <my-products brand="Adidas" brand-image="images/sneakers/LowTop/adidas-lowTop.jpg" cost="240,000.00"></my-products>
+                    <my-products brand="Adidas" brand-image="images/sneakers/LowTop/adidas-lowTop2.jpg" cost="190,000.00"></my-products>
+                    <my-products brand="Nike" brand-image="images/sneakers/LowTop/nike-lowTop1.jpg" cost="70,000.00"></my-products>
+                    <my-products brand="Adidas-Shark" brand-image="images/sneakers/HighTop/adidas-shark-highTop2.jpg" cost="288,000.00"></my-products>
+                    <my-products brand="Nike Allstars" brand-image="images/sneakers/HighTop/Nike-Blazer.jpg" cost="253,000.00"></my-products>
+                </div>
+            </div> 
+            <!-- End of High tops -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    
+    <!-- -----FOOTER SECTION--- -->
+  <main-footer></main-footer>
+   
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/shoes.js" type="module"></script>
+  <script src="js/jQuery v3.6.0.js"></script>
+  <script src="js/sweetalert2.all.min.js"></script>
+</body>
+</html>
