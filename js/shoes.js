@@ -376,15 +376,6 @@ class Footer extends HTMLElement{
     }
 }
 
-customElements.define('main-footer', Footer);
-customElements.define('main-header', Header);
-customElements.define('my-filter', Filter);
-customElements.define('my-products', Products);
-
-var cart = new Products();
-// cart.saveCart();
-cart.cartpage();
-
 // Swiper Container
 let swiper = new Swiper(".mySwiper", {
     slidesPerView: 3,
@@ -401,3 +392,13 @@ let swiper = new Swiper(".mySwiper", {
         prevEl: ".swiper-button-prev"
     }
 })
+
+
+customElements.define('main-footer', Footer);
+customElements.define('main-header', Header);
+customElements.define('my-filter', Filter);
+customElements.define('my-products', Products);
+
+var cart = new Products();
+// cart.saveCart();
+cart.cartpage();
