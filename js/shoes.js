@@ -89,7 +89,7 @@ const template = document.createElement("template");
 template.innerHTML = 
 '<link rel="stylesheet" href="css/shoes.css">'+
 '<link rel="stylesheet" href="css/bootstrap.min.css">'+
-'<script src="https://kit.fontawesome.com/d2d33bd796.js" crossorigin="anonymous"></script>'+
+'<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">'+
 '<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>'+
 // '<link rel="stylesheet" href="css/swiper-bundle.min.css">'+
 // '<h3 class="para text-danger hidden">Product not Found!</h3>'+
