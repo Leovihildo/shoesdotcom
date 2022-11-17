@@ -93,13 +93,17 @@ template.innerHTML =
 '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>'+
 // '<link rel="stylesheet" href="css/swiper-bundle.min.css">'+
 // '<h3 class="para text-danger hidden">Product not Found!</h3>'+
-' <div class="card col-3 swiper-slide" style="width: 20rem;">'+
-    '<img class="card-img-top loading">'+
-    '<div class="card-body">'+
-        '<h4 class="card-title brand loading"><slot name="brand" /></h4>'+
-        '<p class="card-text loading">&#8358;<span class="price"><slot name="cost" /></span></p>'+
-        '<div class="btn-cart loading"><a href="javascript: void(0)">Add to cart<i class="fa fa-shopping-cart" aria-hidden="true"></i></li></a></div>'+
-    '</div>'+
+'<div class="swiper mySwiper products-container" id="uncategorized">'+
+       '<div class="swiper-wrapper">'+
+           ' <div class="card col-3 swiper-slide" style="width: 20rem;">'+
+                 '<img class="card-img-top loading">'+
+                 '<div class="card-body">'+
+                      '<h4 class="card-title brand loading"><slot name="brand" /></h4>'+
+                      '<p class="card-text loading">&#8358;<span class="price"><slot name="cost" /></span></p>'+
+                     '<div class="btn-cart loading"><a href="javascript: void(0)">Add to cart<i class="fa fa-shopping-cart" aria-hidden="true"></i></li></a></div>'+
+                 '</div>'+
+             '</div>'+
+        '</div>'+
 '</div>';
 
 class Products extends HTMLElement{
