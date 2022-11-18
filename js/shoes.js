@@ -95,7 +95,7 @@ template.innerHTML =
 '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>'+
 // '<link rel="stylesheet" href="css/swiper-bundle.min.css">'+
 // '<h3 class="para text-danger hidden">Product not Found!</h3>'+
-           ' <div class="card" style="width: 25rem;">'+
+           ' <div class="card" style="width: 20rem;">'+
                  '<img class="card-img-top loading">'+
                  '<div class="card-body">'+
                       '<h4 class="card-title brand loading"><slot name="brand" /></h4>'+
