@@ -44,7 +44,7 @@ class Filter extends HTMLElement{
     connectedCallback(){
         this.innerHTML = 
         '<div class="row container">'+
-            '<div class="dropdown col-md-6 col-sm-12">'+
+            '<div class="dropdown col-6">'+
                ' <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">'+
                ' Filter'+
                 '</button>'+
@@ -75,7 +75,7 @@ class Filter extends HTMLElement{
         '</a></li>'+
             '</ul>'+
        ' </div>'+
-        '<form class="search-bar col-md-6 col-sm-12">'+
+        '<form class="search-bar col-6">'+
            '<div class="form">'+ 
                 '<input type="text" name="" id="search" placeholder="search for a product">'+
                 '<i class="search fa fa-search" aria-hidden="true"></i>'+
@@ -95,7 +95,7 @@ template.innerHTML =
 '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>'+
 // '<link rel="stylesheet" href="css/swiper-bundle.min.css">'+
 // '<h3 class="para text-danger hidden">Product not Found!</h3>'+
-           ' <div class="card" style="width: 20rem;">'+
+           ' <div class="card" style="width: 25rem;">'+
                  '<img class="card-img-top loading">'+
                  '<div class="card-body">'+
                       '<h4 class="card-title brand loading"><slot name="brand" /></h4>'+
