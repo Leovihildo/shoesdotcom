@@ -7,7 +7,7 @@ class Header extends HTMLElement{
         '<nav id="nav_scroll" class="navbar navbar-expand-lg navbar-light bg-light sticky-top">'+
             '<div class="container">'+
             '<a class="brand" href="home.html">'+
-                    '<img src="images/Sdc.png" alt="" width="60" height="60" class="d-inline-block align-text-top">'+
+                    '<img src="images/sneakers/Sdc.png" alt="" width="60" height="60" class="d-inline-block align-text-top">'+
                 '</a>'+
                 '<button class="navbar-toggler" type="button" data-bs-target="#offcanvasRight" data-bs-toggle="offcanvas" aria-controls="offcanvasRight">'+
                     '<span class="navbar-toggler-icon clear"></span>'+
