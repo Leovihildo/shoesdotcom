@@ -44,7 +44,7 @@ class Filter extends HTMLElement{
     connectedCallback(){
         this.innerHTML = 
         '<div class="row">'+
-            '<div class="dropdown col-6 col-sm-12">'+
+            '<div class="dropdown col-md-6 col-sm-12">'+
                ' <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">'+
                ' Filter'+
                 '</button>'+
@@ -75,7 +75,7 @@ class Filter extends HTMLElement{
         '</a></li>'+
             '</ul>'+
        ' </div>'+
-        '<form class="search-bar col-6 col-sm-12">'+
+        '<form class="search-bar col-md-6 col-sm-12">'+
            '<div class="form">'+ 
                 '<input type="text" name="" id="search" placeholder="search for a product">'+
                 '<i class="search fa fa-search" aria-hidden="true"></i>'+
@@ -386,7 +386,7 @@ customElements.define('my-products', Products);
 
 // Swiper Container
 let swiper = new Swiper(".mySwiper", {
-    slidesPerView: 1,
+    slidesPerView: 2,
     spaceBetween: 30,
     loop: true,
     loopFillGroupWithBlank: true,
