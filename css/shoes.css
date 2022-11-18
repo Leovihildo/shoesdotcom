@@ -83,7 +83,6 @@ a{
     top: 0;
     left: 50%;
     transform: translate(-50%, 0%);
-    background-color: yellow;
     text-align: center;
 }
 hr{
@@ -203,8 +202,8 @@ hr{
     outline: none;
     border: none;
 }
-.search-bar{
-    width: 44.5vw;
+.form{
+    width: 45vw;
     display: flex;
     height: 2rem;
     border-radius: var(--mb-lg);
