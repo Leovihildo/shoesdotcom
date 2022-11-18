@@ -203,16 +203,15 @@ hr{
     border: none;
 }
 .form{
-    width: 45vw;
+    width: 44.5vw;
     display: flex;
     height: 2rem;
     border-radius: var(--mb-lg);
-    border: 1px solid #000;
+    border: 2px solid #000;
     margin-bottom: var(--mb-md);
 }
 #search{
     border: none;
-    flex: 1;
     font-size: var(--xs-font-size);
 }
 .fa-search{
