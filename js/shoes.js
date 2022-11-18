@@ -44,7 +44,7 @@ class Filter extends HTMLElement{
     connectedCallback(){
         this.innerHTML = 
         '<div class="row">'+
-            '<div class="dropdown col-6">'+
+            '<div class="dropdown col-6 col-sm-12">'+
                ' <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">'+
                ' Filter'+
                 '</button>'+
@@ -75,9 +75,11 @@ class Filter extends HTMLElement{
         '</a></li>'+
             '</ul>'+
        ' </div>'+
-        '<form class="search-bar col-6">'+
-           ' <input type="text" name="" id="search" placeholder="search a product">'+
-           ' <div class="search"><i class="fa fa-search" aria-hidden="true"></i></div>'+
+        '<form class="search-bar col-6 col-sm-12">'+
+           '<div class="form">'+ 
+                '<input type="text" name="" id="search" placeholder="search for a product">'+
+                '<i class="search fa fa-search" aria-hidden="true"></i>'+
+           '</div>'+
        ' </form>'+
        '</div>'
     }
