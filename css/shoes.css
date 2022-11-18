@@ -229,8 +229,11 @@ hr{
      height: 20px;
      margin: var(--mb-md);
 }
-.para{
-    
+.products-container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* .card-img-top{
     width: 20rem;
