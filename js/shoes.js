@@ -6,7 +6,7 @@ class Header extends HTMLElement{
     '<header id="header">'+
         '<nav id="nav_scroll" class="navbar navbar-expand-lg navbar-light bg-light sticky-top">'+
             '<div class="container">'+
-            '<a class="brand" href="home.html">'+
+            '<a class="brand" href="index.html">'+
                     '<img src="images/sneakers/Sdc.png" alt="" width="60" height="60" class="d-inline-block align-text-top">'+
                 '</a>'+
                 '<button class="navbar-toggler" type="button" data-bs-target="#offcanvasRight" data-bs-toggle="offcanvas" aria-controls="offcanvasRight">'+
@@ -19,7 +19,7 @@ class Header extends HTMLElement{
                 '</div>'+
             '<div class="offcanvas-body small">'+
                 '<ul class="navbar-nav justify-content-end  flex-grow-1 pe-3">'+
-                    '<li class="nav-item"><a class="nav-link active" href="home.html">Home</a></li>'+
+                    '<li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>'+
                     '<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Categories</a>'+
                         '<ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="offcanvasNavbarDropdown">'+
                             '<li><a class="dropdown-item low category" href="lowtops.html">Low-tops</li>'+
