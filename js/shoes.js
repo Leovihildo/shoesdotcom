@@ -75,12 +75,14 @@ class Filter extends HTMLElement{
         '</a></li>'+
             '</ul>'+
        ' </div>'+
-        '<form class="search-bar col-6">'+
+        '<div class="col-6">'+
+        '<form class="search-bar">'+
            '<div class="form">'+ 
                 '<input type="text" name="" id="search" placeholder="search for a product">'+
                 '<i class="search fa fa-search" aria-hidden="true"></i>'+
            '</div>'+
        ' </form>'+
+       '</div>'+
        '</div>'
     }
 }
