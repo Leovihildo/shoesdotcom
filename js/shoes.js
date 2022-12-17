@@ -388,8 +388,8 @@ customElements.define('my-products', Products);
 
 // Swiper Container
 let swiper = new Swiper(".mySwiper", {
-    slidesPerView: 1,
-    spaceBetween: 30,
+    slidesPerView: 2,
+    spaceBetween: 60,
     loop: true,
     loopFillGroupWithBlank: true,
     pagination: {
