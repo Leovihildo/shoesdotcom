@@ -394,6 +394,14 @@ customElements.define('my-products', Products);
         el: ".swiper-pagination",
         clickable: true,
       },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      }
     });
 
 var cart = new Products();
