@@ -387,20 +387,14 @@ customElements.define('my-filter', Filter);
 customElements.define('my-products', Products);
 
 // Swiper Container
-let swiper = new Swiper(".mySwiper", {
-    slidesPerView: "auto",
-    spaceBetween: 30,
-    loop: true,
-    loopFillGroupWithBlank: true,
-    pagination: {
+ var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      pagination: {
         el: ".swiper-pagination",
-        clickable: true
-    },
-    navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev"
-    }
-})
+        clickable: true,
+      },
+    });
 
 var cart = new Products();
 // cart.saveCart();
