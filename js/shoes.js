@@ -349,7 +349,7 @@ class Footer extends HTMLElement{
                            ' <i class="fa fa-phone" aria-hidden="true"></i><span>+234-809-6169-948</span>'+
                         '</div>'+
                        ' <div>'+
-                           ' <i class="fa fa-envelope" aria-hidden="true"></i><span>Johnsonp.Joshua@yahoo.com</span>'+
+                           ' <i class="fa fa-envelope" aria-hidden="true"></i><span>bolaji.opeyemi@yahoo.com</span>'+
                         '</div>'+
                     '</div>'+
                 '<hr class="d-block d-sm-none">'+
